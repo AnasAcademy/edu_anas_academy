@@ -17,7 +17,7 @@ class _WebViewAppState extends State<WebViewApp> {
     super.initState();
     controller = WebViewController()
       ..loadRequest(
-        Uri.parse('https://edu.anasacademy.uk/login/index.php'),
+        Uri.parse('https://anasacademy.uk/platform/'),
       );
   }
 
